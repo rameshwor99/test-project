@@ -1,4 +1,7 @@
 # svelte app
+Example table design:
+![Table](./table.png)
+
 ## Get started
 
 Install the dependencies...

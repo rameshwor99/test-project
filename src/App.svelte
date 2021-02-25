@@ -1,10 +1,15 @@
 <script>
+	// import Component1 from './Component1.svelte';
+	// import Component2 from './Component2.svelte';
+
 	export let name;
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+
+	<!-- <Component1 /> -->
+	<!-- <Component2 /> -->
 </main>
 
 <style>
