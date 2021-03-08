@@ -1,14 +1,13 @@
 <script>
-	// Please fix the following bug.
+    import {onMount} from 'svelte';
+    // Please fix the following bug.
 
-	export let name = 'Harold';
+    export let name = 'Harold';
 
-  function init() {
-    document.getElementById('my-name').style = 'font-size: 2rem;';
-  }
-
-  init();
-
+    onMount(() => {
+        let child = document.getElementById('my-name');
+        child["style"] = 'font-size: 2rem;';
+    });
 </script>
 
 <p id="my-name">My name is {name}</p>

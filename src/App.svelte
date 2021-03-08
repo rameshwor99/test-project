@@ -1,6 +1,7 @@
 <script>
-	// import Component1 from './Component1.svelte';
-	// import Component2 from './Component2.svelte';
+	import Component1 from './Component1.svelte';
+	import Component2 from './Component2.svelte';
+	import Component3 from "./Component3.svelte";
 
 	export let name;
 </script>
@@ -8,8 +9,9 @@
 <main>
 	<h1>Hello {name}!</h1>
 
-	<!-- <Component1 /> -->
-	<!-- <Component2 /> -->
+	 <Component1 />
+	 <Component2 />
+	<Component3/>
 </main>
 
 <style>
